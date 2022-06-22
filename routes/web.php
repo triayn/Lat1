@@ -35,6 +35,7 @@ Route::get('/users/edit/{id}', [\App\Http\Controllers\UserController::class, 'ed
 Route::put('/users/{id}', [\App\Http\Controllers\UserController::class, 'update'])->name('users.update');
 Route::delete('/users/{id}', [\App\Http\Controllers\UserController::class, 'destroy'])->name('users.destroy');
 
-// Route::get('/dashboard', [\App\Http\Controllers\DashboardController::class, 'index']);
-// Route::get('/profile', [\App\Http\Controllers\DashboardController::class, 'create']);
-// Route::get('/table', [\App\Http\Controllers\DashboardController::class, 'table']);
+Route::get('/dashboard', [\App\Http\Controllers\DashboardController::class, 'index']);
+Route::get('/profile', [\App\Http\Controllers\DashboardController::class, 'create']);
+Route::get('/table', [\App\Http\Controllers\DashboardController::class, 'table']);
+Route::get('/calender', [\App\Http\Controllers\DashboardController::class, 'calender']);

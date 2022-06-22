@@ -343,13 +343,13 @@ return [
         [
             'text' => 'Table',
             'url'  => '/table',
-            'icon' => 'fa-th-list',
+            'icon' => 'far fa-fw fa-file',
         ],
         // Calender
         [
             'text' => 'Calender', 
             'url'  => '/calender',
-            'icon' => 'fas fa-fw fa-lock',
+            'icon' => 'far fa-fw fa-file',
         ],
     ],
 

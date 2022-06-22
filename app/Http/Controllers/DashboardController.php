@@ -31,6 +31,11 @@ class DashboardController extends Controller
         return view('dashboard.table');
     }
 
+    public function calender()
+    {
+        return view('dashboard.calender');
+    }
+
 
     /**
      * Store a newly created resource in storage.
