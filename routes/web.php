@@ -51,3 +51,8 @@ Route::post('/admin', [\App\Http\Controllers\AdminController::class, 'store'])->
 Route::get('/admin/edit/{id}', [\App\Http\Controllers\AdminController::class, 'edit'])->name('admin.edit');
 Route::put('/admin/{id}', [\App\Http\Controllers\AdminController::class, 'update'])->name('admin.update');
 Route::delete('/admin/{id}', [\App\Http\Controllers\AdminController::class, 'destroy'])->name('admin.destroy');
+
+Route::get('/one', [\App\Http\Controllers\MultiController::class, 'index']);
+Route::get('/two', [\App\Http\Controllers\MultiController::class, 'create']);
+Route::get('/three', [\App\Http\Controllers\MultiController::class, 'store']);
+Route::get('/important', [\App\Http\Controllers\MultiController::class, 'show']);

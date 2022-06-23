@@ -346,32 +346,57 @@ return [
         [
             'text' => 'Dashboard',
             'url'  => '/dashboard',
-            'icon' => 'far fa-fw fa-file',
+            'icon' => 'nav-icon fas fa-tachometer-alt',
         ],
         // Table
         [
             'text' => 'Table',
             'url'  => '/table',
-            'icon' => 'far fa-fw fa-file',
+            'icon' => 'nav-icon fas fa-table',
         ],
         // Calender
         [
             'text' => 'Calender', 
             'url'  => '/calender',
-            'icon' => 'far fa-fw fa-file',
+            'icon' => 'nav-icon far fa-image',
         ],
         // Mailbox
         [
             'text'  => 'Mailbox',
             'url'   => '/mailbox',
-            'icon'  => 'fas fa-fw fa-share',
+            'icon'  => 'far fa-envelope',
             'label' => '33',
         ],
         // Information
         [
-            'text'       => 'Information',
-            'url'        => '/info',
-            'icon_color' => 'red',
+            'text' => 'Information',
+            'url'  => '/info',
+            'icon' => 'nav-icon fas fa-edit',
+        ],
+        // Multi
+        [
+            'text'    => 'Multi',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'one',
+                    'url'  => '/one',
+                ],
+                [
+                    'text' => 'two',
+                    'url'  => '/two',
+                ],
+                [
+                    'text' => 'three',
+                    'url'  => '/three'
+                ],
+            ]
+        ],
+        // Important
+        [
+            'text' => 'Important',
+            'url'  => '/important',
+            'icon' => 'fas fa-ambulance',
         ],
     ],
 

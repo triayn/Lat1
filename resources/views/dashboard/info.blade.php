@@ -1,7 +1,7 @@
 @extends('adminlte::page')
 
 @section('content_header')
-    Information
+    <h1>Information</h1>
 @endsection
 
 @section('content')
@@ -13,7 +13,8 @@
           <span class="info-box-icon bg-info elevation-1"><i class="fas fa-cog"></i></span>
 
           <div class="info-box-content">
-            <span class="info-box-text">CPU Traffic</span>
+            <span class="info-box-text">
+              Yet To Come</span>
             <span class="info-box-number">
               10
               <small>%</small>
@@ -29,7 +30,7 @@
           <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-thumbs-up"></i></span>
 
           <div class="info-box-content">
-            <span class="info-box-text">Likes</span>
+            <span class="info-box-text">Butterfly</span>
             <span class="info-box-number">41,410</span>
           </div>
           <!-- /.info-box-content -->
@@ -46,8 +47,8 @@
           <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
 
           <div class="info-box-content">
-            <span class="info-box-text">Sales</span>
-            <span class="info-box-number">760</span>
+            <span class="info-box-text">Fake Love</span>
+            <span class="info-box-number">76,130</span>
           </div>
           <!-- /.info-box-content -->
         </div>
@@ -59,7 +60,7 @@
           <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
 
           <div class="info-box-content">
-            <span class="info-box-text">New Members</span>
+            <span class="info-box-text">Life Goes On</span>
             <span class="info-box-number">2,000</span>
           </div>
           <!-- /.info-box-content -->
@@ -103,11 +104,11 @@
               <!-- /.col -->
               <div class="col-md-4">
                 <p class="text-center">
-                  <strong>Goal Completion</strong>
+                  <strong>Goal MV Butter</strong>
                 </p>
 
                 <div class="progress-group">
-                  Add Products to Cart
+                  YouTube
                   <span class="float-right"><b>160</b>/200</span>
                   <div class="progress progress-sm">
                     <div class="progress-bar bg-primary" style="width: 80%"></div>
@@ -116,7 +117,7 @@
                 <!-- /.progress-group -->
 
                 <div class="progress-group">
-                  Complete Purchase
+                  Spotify
                   <span class="float-right"><b>310</b>/400</span>
                   <div class="progress progress-sm">
                     <div class="progress-bar bg-danger" style="width: 75%"></div>
@@ -125,7 +126,7 @@
 
                 <!-- /.progress-group -->
                 <div class="progress-group">
-                  <span class="progress-text">Visit Premium Page</span>
+                  <span class="progress-text">Music Benk</span>
                   <span class="float-right"><b>480</b>/800</span>
                   <div class="progress progress-sm">
                     <div class="progress-bar bg-success" style="width: 60%"></div>
@@ -134,7 +135,7 @@
 
                 <!-- /.progress-group -->
                 <div class="progress-group">
-                  Send Inquiries
+                  I-Tunes
                   <span class="float-right"><b>250</b>/500</span>
                   <div class="progress progress-sm">
                     <div class="progress-bar bg-warning" style="width: 50%"></div>
@@ -153,14 +154,14 @@
                 <div class="description-block border-right">
                   <span class="description-percentage text-success"><i class="fas fa-caret-up"></i> 17%</span>
                   <h5 class="description-header">$35,210.43</h5>
-                  <span class="description-text">TOTAL REVENUE</span>
+                  <span class="description-text">TOTAL VIEUW</span>
                 </div>
                 <!-- /.description-block -->
               </div>
               <!-- /.col -->
               <div class="col-sm-3 col-6">
                 <div class="description-block border-right">
-                  <span class="description-percentage text-warning"><i class="fas fa-caret-left"></i> 0%</span>
+                  <span class="description-percentage text-warning"><i class="fas fa-caret-down"></i> 0%</span>
                   <h5 class="description-header">$10,390.90</h5>
                   <span class="description-text">TOTAL COST</span>
                 </div>
@@ -179,7 +180,7 @@
               <div class="col-sm-3 col-6">
                 <div class="description-block">
                   <span class="description-percentage text-danger"><i class="fas fa-caret-down"></i> 18%</span>
-                  <h5 class="description-header">1200</h5>
+                  <h5 class="description-header">1700</h5>
                   <span class="description-text">GOAL COMPLETIONS</span>
                 </div>
                 <!-- /.description-block -->
