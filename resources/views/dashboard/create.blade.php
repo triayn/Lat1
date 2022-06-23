@@ -36,7 +36,7 @@
           <!-- /.col -->
           <div class="col-sm-4">
             <div class="description-block">
-              <h5 class="description-header">01</h5>
+              <h5 class="description-header">02</h5>
               <span class="description-text">USER</span>
             </div>
             <!-- /.description-block -->
@@ -79,7 +79,7 @@
           <!-- /.col -->
           <div class="col-sm-4">
             <div class="description-block">
-              <h5 class="description-header">02</h5>
+              <h5 class="description-header">01</h5>
               <span class="description-text">USER</span>
             </div>
             <!-- /.description-block -->

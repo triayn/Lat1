@@ -36,6 +36,20 @@ class DashboardController extends Controller
         return view('dashboard.calender');
     }
 
+    public function more()
+    {
+        return view('dashboard.more');
+    }
+
+    public function mailbox()
+    {
+        return view('dashboard.mailbox');
+    }
+
+    public function inbox()
+    {
+        return view('dashboard.inbox');
+    }
 
     /**
      * Store a newly created resource in storage.

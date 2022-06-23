@@ -147,4 +147,99 @@
     </div>
     <!-- /.card -->
   </div>
+
+
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Month</h3>
+        </div>
+        <div class="card-body">
+          <ul class="pagination pagination-month justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">«</a></li>
+            <li class="page-item active">
+                <a class="page-link" href="#">
+                    <p class="page-month">Jan</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" href="#">
+                    <p class="page-month">Feb</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" href="#">
+                    <p class="page-month">Mar</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" href="#">
+                    <p class="page-month">Apr</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" href="#">
+                    <p class="page-month">May</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" href="#">
+                    <p class="page-month">Jun</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <p class="page-month">Jul</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <p class="page-month">Aug</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <p class="page-month">Sep</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <p class="page-month">Oct</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <p class="page-month">Nov</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <p class="page-month">Dec</p>
+                    <p class="page-year">2022</p>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">»</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+  <!-- END TYPOGRAPHY -->
+</div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->
+</div>
 @endsection

@@ -329,9 +329,10 @@ return [
         ],
         // User
         [
-            'text' => 'User',
-            'url'  => '/users',
-            'icon' => 'fa fa-users',
+            'text'  => 'User',
+            'url'   => '/users',
+            'icon'  => 'fa fa-users',
+            'label' => '6',
         ],
         // Dashboard
         [
@@ -350,6 +351,13 @@ return [
             'text' => 'Calender', 
             'url'  => '/calender',
             'icon' => 'far fa-fw fa-file',
+        ],
+        // Mailbox
+        [
+            'text'  => 'Mailbox',
+            'url'   => '/mailbox',
+            'icon'  => 'fas fa-fw fa-share',
+            'label' => '33',
         ],
     ],
 

@@ -39,3 +39,6 @@ Route::get('/dashboard', [\App\Http\Controllers\DashboardController::class, 'ind
 Route::get('/profile', [\App\Http\Controllers\DashboardController::class, 'create']);
 Route::get('/table', [\App\Http\Controllers\DashboardController::class, 'table']);
 Route::get('/calender', [\App\Http\Controllers\DashboardController::class, 'calender']);
+Route::get('/more', [\App\Http\Controllers\DashboardController::class, 'more']);
+Route::get('/mailbox', [\App\Http\Controllers\DashboardController::class, 'mailbox']);
+Route::get('/inbox', [\App\Http\Controllers\DashboardController::class, 'inbox']);
