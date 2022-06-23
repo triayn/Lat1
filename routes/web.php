@@ -42,3 +42,5 @@ Route::get('/calender', [\App\Http\Controllers\DashboardController::class, 'cale
 Route::get('/more', [\App\Http\Controllers\DashboardController::class, 'more']);
 Route::get('/mailbox', [\App\Http\Controllers\DashboardController::class, 'mailbox']);
 Route::get('/inbox', [\App\Http\Controllers\DashboardController::class, 'inbox']);
+Route::get('/read', [\App\Http\Controllers\DashboardController::class, 'read']);
+Route::get('/info', [\App\Http\Controllers\DashboardController::class, 'info']);

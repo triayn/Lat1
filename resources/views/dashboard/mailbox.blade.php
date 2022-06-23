@@ -48,6 +48,11 @@
                 <i class="far fa-trash-alt"></i> Trash
               </a>
             </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-fw fa-share"></i> Back
+              </a>
+            </li>
           </ul>
         </div>
         <!-- /.card-body -->

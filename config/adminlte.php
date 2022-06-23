@@ -323,16 +323,17 @@ return [
     'menu' => [
         // profil
         [
-            'text' => 'profile',
-            'url'  => '/profile',
-            'icon' => 'fas fa-fw fa-user',
+            'text'  => 'profile',
+            'url'   => '/profile',
+            'icon'  => 'fas fa-fw fa-user',
+            'label' => '2'
         ],
         // User
         [
             'text'  => 'User',
             'url'   => '/users',
             'icon'  => 'fa fa-users',
-            'label' => '6',
+            'label' => '8',
         ],
         // Dashboard
         [
@@ -358,6 +359,12 @@ return [
             'url'   => '/mailbox',
             'icon'  => 'fas fa-fw fa-share',
             'label' => '33',
+        ],
+        // Information
+        [
+            'text'       => 'Information',
+            'url'        => '/info',
+            'icon_color' => 'red',
         ],
     ],
 

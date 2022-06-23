@@ -51,6 +51,16 @@ class DashboardController extends Controller
         return view('dashboard.inbox');
     }
 
+    public function read()
+    {
+        return view('dashboard.read');
+    }
+
+    public function info()
+    {
+        return view('dashboard.info');
+    }
+
     /**
      * Store a newly created resource in storage.
      *
