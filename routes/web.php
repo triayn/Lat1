@@ -44,3 +44,10 @@ Route::get('/mailbox', [\App\Http\Controllers\DashboardController::class, 'mailb
 Route::get('/inbox', [\App\Http\Controllers\DashboardController::class, 'inbox']);
 Route::get('/read', [\App\Http\Controllers\DashboardController::class, 'read']);
 Route::get('/info', [\App\Http\Controllers\DashboardController::class, 'info']);
+
+Route::get('/admin', [\App\Http\Controllers\AdminController::class, 'index'])->name('admin.index');
+Route::get('/admin/tambah', [\App\Http\Controllers\AdminController::class, 'create'])->name('admin.create');
+Route::post('/admin', [\App\Http\Controllers\AdminController::class, 'store'])->name('admin.store');
+Route::get('/admin/edit/{id}', [\App\Http\Controllers\AdminController::class, 'edit'])->name('admin.edit');
+Route::put('/admin/{id}', [\App\Http\Controllers\AdminController::class, 'update'])->name('admin.update');
+Route::delete('/admin/{id}', [\App\Http\Controllers\AdminController::class, 'destroy'])->name('admin.destroy');

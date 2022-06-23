@@ -328,6 +328,13 @@ return [
             'icon'  => 'fas fa-fw fa-user',
             'label' => '2'
         ],
+        // Admin
+        [
+            'text'  => 'Admin',
+            'url'   => '/admin',
+            'icon'  => 'fa fa-users',
+            'label' => '2',
+        ],
         // User
         [
             'text'  => 'User',
